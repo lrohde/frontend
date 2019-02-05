@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     padding: metrics.basePadding,
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
   },
   button: {
     width: '100%',
@@ -24,6 +24,30 @@ export const styles = StyleSheet.create({
     width: '100%',
     fontWeight: 'bold',
   },
+  logoContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+  },
+  logo: {
+    marginTop: metrics.baseMargin * 4,
+    width: 200,
+    resizeMode: 'cover',
+    height: 125,
+  },
+  saldo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  span: {
+    fontWeight: 'bold',
+    fontSize: 20,
+  },
+  value: {
+    fontSize: 18,
+  }
 });
 
 export default styles;

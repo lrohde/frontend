@@ -7,6 +7,7 @@ import venda from './venda';
 import variedade from './variedade';
 import endereco from './endereco';
 import modal from './modal';
+import saldo from './saldo';
 
 export default combineReducers({
   example,
@@ -16,4 +17,5 @@ export default combineReducers({
   variedade,
   endereco,
   modal,
+  saldo,
 });

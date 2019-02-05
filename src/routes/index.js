@@ -6,6 +6,7 @@ import MainScreen from 'pages/MainScreen';
 import SaleScreen from 'pages/SaleScreen';
 import HandlingScreen from 'pages/HandlingScreen';
 import PlantingScreen from 'pages/PlantingScreen';
+import ProfileScreen from 'pages/ProfileScreen';
 
 const Routes = createStackNavigator({
   MainScreen: {
@@ -17,7 +18,7 @@ const Routes = createStackNavigator({
         }),
       },
       ProfileTab: {
-        screen: MainScreen,
+        screen: ProfileScreen,
         navigationOptions: () => ({
           tabBarIcon: () => <Icon name="md-settings" />,
         }),
