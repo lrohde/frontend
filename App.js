@@ -8,13 +8,11 @@ import { Provider } from 'react-redux';
 
 import store from "store";
 
-import Example from 'pages/main';
+import Routes from './src/routes';
 
 const App = () => (
   <Provider store={store}>
-    <View>
-      <Example />
-    </View>
+      <Routes />
   </Provider>
 );
 
