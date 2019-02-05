@@ -4,7 +4,6 @@ import { colors, general, metrics } from 'styles';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     flexDirection: 'column',
     justifyContent: 'space-between',
     padding: metrics.basePadding + 5,
